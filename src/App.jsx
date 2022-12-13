@@ -6,8 +6,7 @@ function App() {
     <div className='App'>
       <div>
         <div>
-          <p>React</p>
-          <p>hello</p>
+          <p>On branch experiment 1</p>
         </div>
       </div>
     </div>
