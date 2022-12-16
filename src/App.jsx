@@ -1,13 +1,14 @@
 import './App.css';
 import React from 'react';
+import Header from './components/Header/Header';
+import Courses from './components/Courses/Courses';
 
 function App() {
   return (
     <div className='App'>
-      <div>
-        <div>
-          <p>On branch experiment 1</p>
-        </div>
+      <div className='containerApp'>
+        <Header />
+        <Courses />
       </div>
     </div>
   );

@@ -1,0 +1,22 @@
+.block {
+  min-width: 800px;
+  flex: 1 1 auto;
+  display: flex;
+  /* border: 1px solid black; */
+  padding: 15px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  flex: 1 1 auto;
+}
+
+.info {
+  display: flex;
+  padding: 15px;
+  width: 180px;
+  justify-content: space-between;
+  align-items: center;
+}
